@@ -1,4 +1,4 @@
- fetch('https://randomuser.me/api/?results=300')
+ fetch('https://randomuser.me/api/?results=100')
             .then(res => res.json())
             .then(data => displayUser(data.results))
 
